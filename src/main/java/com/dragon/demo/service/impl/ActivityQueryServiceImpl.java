@@ -12,7 +12,6 @@ public class ActivityQueryServiceImpl implements ActivityQueryService {
 	@Value("${spring.appname}")
 	private String appName;
 
-	@Override
 	public RequestContext queryActivity(RequestContext requestContext) {
 		
 		return null;
